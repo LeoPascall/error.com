@@ -1,0 +1,278 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+flex-direction: column;
+font-family: Trebuchet MS
+;
+}
+.min{
+display: block;
+border: 1q solid #808080;
+background: transparent;
+color: #ffffff;
+font-size: 10px;
+padding: 17px;
+cursor: pointer;
+text-decoration: none;
+text-transform: uppercase;
+width: 110px;
+text-align: center;
+font-size: 13px;
+transition: 0.4s;
+}
+.Downl{
+display: block;
+border: 1q solid #808080;
+background: transparent;
+color: #ffffff;
+font-size: 10px;
+padding: 17px;
+cursor: pointer;
+text-decoration: none;
+text-transform: uppercase;
+width: 110px;
+text-align: center;
+font-size: 13px;
+transition: 0.4s;
+}
+.Downl:hover {
+border: 1q solid #ffffff;
+color: #ffffff;
+}
+
+.min:hover {
+border: 1q solid #ffffff;
+color: #ffffff;
+}
+.mine {
+text-align: center;
+position:absolute;
+top: 53%;
+left:30%;
+}
+.btn1 {
+text-align: center;
+position:absolute;
+top:37%;
+left:33%;
+}
+
+.Downl {
+position:absolute;
+top:64%;
+left:31%;
+}
+.min{
+position:absolute;
+top:64%;
+left:58%;
+}
+.mi{
+position:absolute;
+top:68%;
+left:1%;
+}
+
+.mi{
+display: block;
+border: 1q solid #808080;
+background: transparent;
+color: #ffffff;
+font-size: 10px;
+padding: 17px;
+cursor: pointer;
+text-decoration: none;
+text-transform: uppercase;
+width: 130px;
+text-align: center;
+font-size: 14px;
+transition: 0.4s;
+}
+
+.mi:hover{
+border: 1q solid #ffffff;
+}
+
+.bt{
+display: block;
+border: 1q solid #808080;
+background: transparent;
+color: #ffffff;
+font-size: 10px;
+padding: 17px;
+cursor: pointer;
+text-decoration: none;
+text-transform: uppercase;
+width: 130px;
+text-align: center;
+font-size: 14px;
+transition: 0.4s;
+}
+
+.bt:hover{
+border: 1q solid #ffffff;
+}
+
+.popup .overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+
+.popup .content {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%) scale(0);
+background:url(file:///D:/Website/mydp2.jpg) no-repeat;
+width: 30%x;
+background-size: cover;
+height: 38%;
+z-index: 2;
+text-align: center;
+padding: 20px;
+box-sizing: border-box;
+border-radius: 10px;
+transition: 0.4s;
+}
+.popup .close-btn {
+position: absolute;
+right: 20px;
+top: 20px;
+width: 30px;
+height: 30px;
+cursor: pointer;
+background: #222;
+color: #808080;
+font-size: 25px;
+font-weight: 600;
+line-height: 30px;
+text-align: center;
+border-radius: 50%;
+transition: 0.8s;
+}
+
+.popup.active .overlay {
+display: block;
+}
+
+.popup.active .content {
+    transition: all 300ms ease-in-out;
+transform: translate(-50%, -50%) scale(1);
+transition: 0.5s;
+}
+.b{
+display: block;
+border: 1q solid #808080;
+color: #fff;
+padding: 15px;
+cursor: pointer;
+text-decoration: none;
+text-transform: uppercase;
+width: 150px;
+text-align: center;
+font-size: 18px;
+transition: 0.3s;
+position: absolute;
+right: 43%;
+top: 80%;
+}
+
+.b:hover{
+border: 1q solid #ffffff;
+}
+.back {
+background-size: cover;
+background-attachment: fixed;
+}
+.close-btn:hover{
+    color: #ffffff;
+    transition: 0.8s;
+}
+.p{
+    color: #262626;
+    font-family: 'Work sans',sans-serif;
+}
+.coputton{
+display: block;
+border: 1q solid #808080;
+background: transparent;
+color: #ffffff;
+font-size: 10px;
+padding: 17px;
+cursor: pointer;
+text-decoration: none;
+text-transform: uppercase;
+width: 110px;
+text-align: center;
+font-size: 13px;
+transition: 0.4s;
+}
+.coputton:hover {
+border: 1q solid #ffffff;
+color: #ffffff;
+}
+.coputton {
+position: absolute;
+top: 64%;
+left: 40%;
+}
+.alert{
+    position: absolute;
+    margin: auto;
+    background-color: #101a2d;
+    color: white;
+    padding: 10px 0;
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.Network {
+position: absolute;
+top: 200%;
+}
+.mine {
+position: absolute;
+top: 48%;
+left: 28%;
+}
+.Subscribe {
+display: block;
+border: 1q solid #808080;
+background: transparent;
+color: #ffffff;
+font-size: 10px;
+padding: 17px;
+cursor: pointer;
+text-decoration: none;
+text-transform: uppercase;
+width: 110px;
+text-align: center;
+font-size: 13px;
+transition: 0.4s;
+}
+.Subscribe:hover {
+border: 1q solid #ffffff;
+color: #ffffff;
+}
+.Subscribe {
+position: absolute;
+top: 64%;
+left: 49%;
+}
